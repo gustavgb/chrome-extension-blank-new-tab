@@ -1,0 +1,26 @@
+{
+  "name": "newtab",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "watch": "parcel watch newtab.html",
+    "build": "rm -rf ./dist && parcel build newtab.html"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "countries-list": "^2.6.1",
+    "country-iso-to-coordinates": "^1.0.2",
+    "sunrise-sunset-js": "^2.2.1"
+  },
+  "devDependencies": {
+    "parcel": "^2.0.1"
+  },
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "targets": {
+    "default": {
+      "distDir": "./dist",
+      "publicUrl": "./"
+    }
+  }
+}
